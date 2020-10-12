@@ -1,0 +1,13 @@
+ (1) - [1] 문제 정의
+     ① 일반 차량 Vehicle이라는 클래스를 설계하고 구현하는 문제입니다.
+     ② Vehicle이라는 클래스를 상속받아 Car를 구현하는 문제입니다.
+     ③ 위 두 개의 클래스를 이용하여 Driver 클래스를 구현하는 문제입니다.
+ (1) - [2] 문제 분석
+      ∴ Vehicle, Car 클래스에 property를 생성하고, Vehicle 클래스에는 Virtual method를, Car는 Vehicle을 상속받아 부모 클래스에서 생성된 Virtual method를 override 하여야 할 것으로 보입니다. 
+
+ (2) - [1] 문제 정의
+     ① Main 문을 해석하고 필요한 Class와 property, method를 구현하는 문제입니다.
+     ② Book 클래스와 Books 클래스를 구현하는 문제입니다.
+
+ (2) - [2] 문제 분석
+      ∴ Book 클래스를 설계하고 getID, getName의 property를 생성합니다. 이후 Book을 상속받는 Books 클래스를 생성하고 제네릭(템플릿) private로 컬렉션 list<T>를 사용하고, 이것을 property도 만들어주면 될 것으로 보이며, AddBook, ReMoveBook, BookIsPresent, ClearAllBooks Method 들을 생성, 구현하여야 할 것으로 보입니다.
